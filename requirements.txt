@@ -10,8 +10,7 @@ tqdm==4.62.3
 loguru==0.5.3
 trimesh==3.9.35
 flatten_dict==0.4.2
-ipykernel==5.3.4
-ipywidgets==7.6.5
+jupyter
 jpeg4py
 shapely==1.7.1
 vedo==2020.4.2
@@ -21,7 +20,7 @@ PyMCubes
 kornia
 chumpy
 cython==0.29.20
-rembg>=2.0.3
+git+https://github.com/danielgatis/rembg.git@v2.0.13
 opencv-python
 opencv_contrib_python
 scikit-learn
