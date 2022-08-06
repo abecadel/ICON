@@ -1,11 +1,13 @@
 FROM nvidia/cuda:11.1.1-cudnn8-devel-ubuntu20.04
 WORKDIR /app
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 ENV PATH="/root/miniconda3/bin:${PATH}"
 ARG PATH="/root/miniconda3/bin:${PATH}"
 
 RUN apt-get update
-RUN apt-get install -y wget git
+RUN apt-get install -y wget git libgl1 libglib2.0-0 ffmpeg
 
 RUN wget \
     https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \

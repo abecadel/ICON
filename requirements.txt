@@ -20,7 +20,7 @@ PyMCubes
 kornia
 chumpy
 cython==0.29.20
-git+https://github.com/danielgatis/rembg.git@v2.0.13
+git+https://github.com/danielgatis/rembg.git@v2.0.3
 opencv-python
 opencv_contrib_python
 scikit-learn
@@ -28,7 +28,9 @@ simple-romp==1.0.4
 protobuf==3.20.0
 pymeshlab
 dataclasses>=0.6
+scipy==1.5.2
 git+https://github.com/Project-Splinter/human_det
 git+https://github.com/facebookresearch/pytorch3d.git
 git+https://github.com/YuliangXiu/neural_voxelization_layer.git
-git+https://github.com/NVIDIAGameWorks/kaolin.git
+git+https://github.com/NVIDIAGameWorks/kaolin.git@v0.10.0
+
